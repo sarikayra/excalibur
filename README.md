@@ -38,6 +38,9 @@ sudo dnf install kernel-devel gcc make zstd python3
 
 # Arch Linux
 sudo pacman -S linux-headers gcc make zstd python3
+
+# Pisi Linux
+sudo pisi ur && sudo pisi it kernel-module-headers gcc make zstd python3
 ```
 
 ### Installation
